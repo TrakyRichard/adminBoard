@@ -1,0 +1,63 @@
+.entete{
+    display: flex;
+}
+
+.entete svg{
+    fill: white;
+}
+.entete h2{
+    color: white;
+}
+
+.svgStyle{
+    fill: white;
+}
+.warningStyle{
+    color: white;
+}
+
+.colorSombre{
+    color: rgb(12, 12, 12);
+    background: whitesmoke;
+}
+
+.cardContain{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.colorBlank{
+    color: white;
+}
+
+.svgBlank{
+    fill: white;
+}
+
+.displaySearch{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+.searchHeight{
+    height: 100px;
+}
+
+.cardContain h2{
+    font-size: 2.5em;
+}
+
+.btnSubmit{
+    color: white;
+}
+
+.cardInscrire{
+    margin-top: 200px!important;
+}
+
+.footerPage{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+}

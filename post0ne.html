@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AdminBoard</title>
+</head>
+<body>
+        <section class="col sticky-top bg-dark">
+            <div class="container container-fluid">
+                <div class="navbar navbar-expand-lg navbar-dark">
+                    <a href="dashbord.html" class="navbar-brand">
+                        AdminBoard
+                    </a>
+                    <button type="submit" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-5">
+                            <li class="nav-item active">
+                                <a href="dashbord.html" class="nav-link">DashBoard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="post.html" class="nav-link">Posts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="categorie.html" class="nav-link">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="user.html" class="nav-link">Utilisateurs</a>
+                            </li>
+                            <li class="dropdown pr-5">
+                                <a href="#" class="btn btn-default dropdown-toggle warningStyle" data-toggle="dropdown">Tutorial 
+                                    <span class="caret"></span>
+                                </a> 
+                                <ul class="dropdown-menu bg-dark">
+                                    <li class="nav-item"><a class="warningStyle" href="profil.html">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        Profil
+                                        </a>
+                                    </li>
+                                    <li class="nav-item"><a class="warningStyle" href="param.html">
+                                        <i class="fa fa-wrench" aria-hidden="true"></i>
+                                        Parametre
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Inscription.html" class="nav-link">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    LogOut
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <div class="col-12 bg-primary">
+        <div class="container">
+            <div class="jombotrom entete">
+                <i class="fa fa-share-alt colorBlank fa-4x" aria-hidden="true"></i>
+                &nbsp;
+                <h2 class="mt-auto">Posts One</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 bg-light searchHeight">
+        <div class="container container-fluid">
+            <div class="jombotrom">
+                <div class="mt-4 d-flex">
+                    <div class="row w-100 input-inline">
+                        <a href="dashbord.html" type="button" class="col-6 w-25 btn btn-outline-dark">
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                            Back To dashboard
+                        </a>
+                    </div>
+                    <div class="row w-100 align-self-end input-inline">
+                            <button type="submit" class="col-5  w-25 btn btn-primary">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Envoyez
+                            </button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button type="reset" class="col-5  w-25 btn btn-danger">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                                Supprimer
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-fluid">
+        <div class="card">
+            <div class="card-header bg-primary">
+                <h4 class="">Edit Post</h4>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <class class="row">
+                        <div class="form-group col-12">
+                            <label for="title">Title</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="catégories">Categories</label>
+                            <select class="browser-default custom-select">
+                                <option selected>Web DEveloppement</option>
+                                <option value="1">FontEnd</option>
+                                <option value="2">BackEnd</option>
+                                <option value="3">FulllStack</option>
+                            </select>
+                        </div>
+
+                        <div class="from-group col-12">
+                            <label for="Image-Upload">Image Upload</label>
+                            <input type="file" class="form-file">
+                        </div>
+
+                        <div class="form-group col-12">
+                            <label for="body">Body</label>
+                            <textarea name="bodyWysiwyg" class="form-control" id="summernote" cols="25" rows="10"></textarea>
+                        </div>
+                </class>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer col-12 bg-dark footerPage">
+        <div class="jombotrom">
+                <h6 class="warningStyle text-center pt-4"> Copyright @2020 AdminBoard</h6>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote.min.js"></script>
+<script>
+    $('#summernote').summernote({
+        placeholder: 'Entrez le contenu',
+        tabsize: 2,
+        height: 100
+    });
+</script>
+
+</body>
+</html>
