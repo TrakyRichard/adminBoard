@@ -14,7 +14,7 @@
     <section class="col sticky-top bg-dark">
         <div class="container container-fluid">
             <div class="navbar navbar-expand-lg navbar-dark">
-                <a href="dashbord.html" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                     AdminBoard
                 </a>
                 <button type="submit" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarContent">
@@ -23,7 +23,7 @@
                 <div id="navbarContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-5">
                         <li class="nav-item active">
-                            <a href="dashbord.html" class="nav-link">DashBoard</a>
+                            <a href="index.html" class="nav-link">DashBoard</a>
                         </li>
                         <li class="nav-item">
                             <a href="post.html" class="nav-link">Posts</a>
@@ -248,141 +248,87 @@
 
     <div class="container">
         <h2>Les posts recents</h2>
-        <div class="row">
-            <table class="col-12 col-md-12 col-lg-9 col-xl-9 table">
+        <div class="table-responsive">
+            <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                        <th>#</th>
-                        <th>Titre</th>
-                        <th>Categories</th>
-                        <th>date du Post</th>
-                        <th></th>
+                        <th scope="col">#</th>
+                        <th scope="col">Titre</th>
+                        <th scope="col">Categories</th>
+                        <th scope="col">date du Post</th>
+                        <th scope="col"></th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <td>1</td>
+                        <th scope="row">1</th>
                         <td>Post One</td>
                         <td>Web Developpment</td>
                         <td>October 12 2009</td>
                         <td>
                             <a href="post0ne.html" class="btn btn-dark" type="button">
-                                <svg class="svgStyle" version="1.1" height="20px" width="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <g><g><path d="M256,0C114.51,0,0,114.496,0,256c0,141.49,114.496,256,256,256c141.49,0,256-114.496,256-256C512,114.51,397.504,0,256,0z
-                                M256,478.39c-122.626,0-222.39-99.764-222.39-222.39S133.374,33.61,256,33.61S478.39,133.374,478.39,256
-                                S378.626,478.39,256,478.39z"/></g></g>
-                                <g><g><path d="M359.974,218.832l-86.716-86.72c-20.542-20.543-53.794-20.545-74.339,0c-20.544,20.543-20.545,53.794,0,74.339
-                                L248.468,256l-49.549,49.549c-20.543,20.542-20.545,53.794,0,74.339c20.54,20.542,53.795,20.546,74.337,0l86.717-86.717
-                                c9.929-9.927,15.396-23.128,15.396-37.169S369.903,228.76,359.974,218.832z M336.209,269.403l-86.718,86.718
-                                c-7.407,7.407-19.398,7.408-26.806,0c-7.408-7.409-7.408-19.397,0-26.807l61.432-61.432c6.563-6.563,6.563-17.203,0-23.766
-                                l-61.432-61.432c-7.408-7.409-7.408-19.397,0-26.807c7.408-7.408,19.398-7.408,26.805,0l86.717,86.717
-                                C343.599,249.987,343.599,262.013,336.209,269.403z"/>
-                                </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 Details
                             </a>
                         </td>
                     </tr>
 
                     <tr class="colorSombre">
-                        <td>2</td>
+                        <th scope="row">2</th>
                         <td>Post Two</td>
                         <td>Web Developpment</td>
                         <td>October 12 2009</td>
                         <td>
                             <a href="post0ne.html" class="btn btn-dark" type="button">
-                                <svg class="svgStyle" version="1.1" height="20px" width="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <g><g><path d="M256,0C114.51,0,0,114.496,0,256c0,141.49,114.496,256,256,256c141.49,0,256-114.496,256-256C512,114.51,397.504,0,256,0z
-                                M256,478.39c-122.626,0-222.39-99.764-222.39-222.39S133.374,33.61,256,33.61S478.39,133.374,478.39,256
-                                S378.626,478.39,256,478.39z"/></g></g>
-                                <g><g><path d="M359.974,218.832l-86.716-86.72c-20.542-20.543-53.794-20.545-74.339,0c-20.544,20.543-20.545,53.794,0,74.339
-                                L248.468,256l-49.549,49.549c-20.543,20.542-20.545,53.794,0,74.339c20.54,20.542,53.795,20.546,74.337,0l86.717-86.717
-                                c9.929-9.927,15.396-23.128,15.396-37.169S369.903,228.76,359.974,218.832z M336.209,269.403l-86.718,86.718
-                                c-7.407,7.407-19.398,7.408-26.806,0c-7.408-7.409-7.408-19.397,0-26.807l61.432-61.432c6.563-6.563,6.563-17.203,0-23.766
-                                l-61.432-61.432c-7.408-7.409-7.408-19.397,0-26.807c7.408-7.408,19.398-7.408,26.805,0l86.717,86.717
-                                C343.599,249.987,343.599,262.013,336.209,269.403z"/>
-                                </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 Details
                             </a>
                         </td>
                     </tr>
 
                     <tr>
-                        <td>3</td>
+                        <th scope="row">3</th>
                         <td>Post One</td>
                         <td>Web Developpment</td>
                         <td>October 12 2009</td>
                         <td>
                             <a href="post0ne.html" class="btn btn-dark" type="button">
-                                <svg class="svgStyle" version="1.1" height="20px" width="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <g><g><path d="M256,0C114.51,0,0,114.496,0,256c0,141.49,114.496,256,256,256c141.49,0,256-114.496,256-256C512,114.51,397.504,0,256,0z
-                                M256,478.39c-122.626,0-222.39-99.764-222.39-222.39S133.374,33.61,256,33.61S478.39,133.374,478.39,256
-                                S378.626,478.39,256,478.39z"/></g></g>
-                                <g><g><path d="M359.974,218.832l-86.716-86.72c-20.542-20.543-53.794-20.545-74.339,0c-20.544,20.543-20.545,53.794,0,74.339
-                                L248.468,256l-49.549,49.549c-20.543,20.542-20.545,53.794,0,74.339c20.54,20.542,53.795,20.546,74.337,0l86.717-86.717
-                                c9.929-9.927,15.396-23.128,15.396-37.169S369.903,228.76,359.974,218.832z M336.209,269.403l-86.718,86.718
-                                c-7.407,7.407-19.398,7.408-26.806,0c-7.408-7.409-7.408-19.397,0-26.807l61.432-61.432c6.563-6.563,6.563-17.203,0-23.766
-                                l-61.432-61.432c-7.408-7.409-7.408-19.397,0-26.807c7.408-7.408,19.398-7.408,26.805,0l86.717,86.717
-                                C343.599,249.987,343.599,262.013,336.209,269.403z"/>
-                                </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 Details
                             </a>
                         </td>
                     </tr>
 
                     <tr class="colorSombre">
-                        <td>4</td>
+                        <th scope="row">4</th>
                         <td>Post One</td>
                         <td>Web Developpment</td>
                         <td>October 12 2009</td>
                         <td>
                             <a href="post0ne.html" class="btn btn-dark" type="button">
-                                <svg class="svgStyle" version="1.1" height="20px" width="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <g><g><path d="M256,0C114.51,0,0,114.496,0,256c0,141.49,114.496,256,256,256c141.49,0,256-114.496,256-256C512,114.51,397.504,0,256,0z
-                                M256,478.39c-122.626,0-222.39-99.764-222.39-222.39S133.374,33.61,256,33.61S478.39,133.374,478.39,256
-                                S378.626,478.39,256,478.39z"/></g></g>
-                                <g><g><path d="M359.974,218.832l-86.716-86.72c-20.542-20.543-53.794-20.545-74.339,0c-20.544,20.543-20.545,53.794,0,74.339
-                                L248.468,256l-49.549,49.549c-20.543,20.542-20.545,53.794,0,74.339c20.54,20.542,53.795,20.546,74.337,0l86.717-86.717
-                                c9.929-9.927,15.396-23.128,15.396-37.169S369.903,228.76,359.974,218.832z M336.209,269.403l-86.718,86.718
-                                c-7.407,7.407-19.398,7.408-26.806,0c-7.408-7.409-7.408-19.397,0-26.807l61.432-61.432c6.563-6.563,6.563-17.203,0-23.766
-                                l-61.432-61.432c-7.408-7.409-7.408-19.397,0-26.807c7.408-7.408,19.398-7.408,26.805,0l86.717,86.717
-                                C343.599,249.987,343.599,262.013,336.209,269.403z"/>
-                                </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 Details
                             </a>
                         </td>
                     </tr>
 
                     <tr>
-                        <td>5</td>
+                        <th scope="row">6</th>
                         <td>Post One</td>
                         <td>Web Developpment</td>
                         <td>October 12 2009</td>
                         <td>
                             <a href="post0ne.html" class="btn btn-dark" type="button">
-                                <svg class="svgStyle" version="1.1" height="20px" width="20px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <g><g><path d="M256,0C114.51,0,0,114.496,0,256c0,141.49,114.496,256,256,256c141.49,0,256-114.496,256-256C512,114.51,397.504,0,256,0z
-                                M256,478.39c-122.626,0-222.39-99.764-222.39-222.39S133.374,33.61,256,33.61S478.39,133.374,478.39,256
-                                S378.626,478.39,256,478.39z"/></g></g>
-                                <g><g><path d="M359.974,218.832l-86.716-86.72c-20.542-20.543-53.794-20.545-74.339,0c-20.544,20.543-20.545,53.794,0,74.339
-                                L248.468,256l-49.549,49.549c-20.543,20.542-20.545,53.794,0,74.339c20.54,20.542,53.795,20.546,74.337,0l86.717-86.717
-                                c9.929-9.927,15.396-23.128,15.396-37.169S369.903,228.76,359.974,218.832z M336.209,269.403l-86.718,86.718
-                                c-7.407,7.407-19.398,7.408-26.806,0c-7.408-7.409-7.408-19.397,0-26.807l61.432-61.432c6.563-6.563,6.563-17.203,0-23.766
-                                l-61.432-61.432c-7.408-7.409-7.408-19.397,0-26.807c7.408-7.408,19.398-7.408,26.805,0l86.717,86.717
-                                C343.599,249.987,343.599,262.013,336.209,269.403z"/>
-                                </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
-                            Details
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                Details
                             </a>
                         </td>
                     </tr>
                 </tbody>
             </table>
-
+        </div>
+    </div>
 
             <div class="col-12 col-md-8 col-lg-3 col-xl-3">
                 <div class="col-12 bg-primary pt-3 pb-3">
