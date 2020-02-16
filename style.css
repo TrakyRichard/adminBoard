@@ -5,7 +5,7 @@ body {
   }
 
   main {
-    flex: 1 0 auto;
+    flex: auto auto;
   }
 
 .entete{
@@ -67,6 +67,6 @@ body {
 }
 
 .footerPage{
-    margin-top: 200px;
+    margin-top: 400px;
     height: 100px;
 }
