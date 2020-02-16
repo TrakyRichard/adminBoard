@@ -1,6 +1,12 @@
-body{
-    margin-bottom: 40%;
-}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
 
 .entete{
     display: flex;
@@ -61,8 +67,6 @@ body{
 }
 
 .footerPage{
-    margin-top: 100px;
-    position: fixed;
-    bottom: 0;
+    margin-top: 200px;
     height: 100px;
 }
